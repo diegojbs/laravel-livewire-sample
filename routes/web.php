@@ -23,3 +23,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('usuarios', [HomeController::class, 'usuarios'])->name('usuarios.index');
+
+Route::get('productos', [HomeController::class, 'productos'])->name('productos.index');

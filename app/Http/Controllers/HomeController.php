@@ -21,6 +21,11 @@ class HomeController extends Controller
         return view('usuarios');
     }
 
+    public function productos()
+    {
+        return view('productos');
+    }
+
     /**
      * Show the application dashboard.
      *

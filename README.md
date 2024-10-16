@@ -6,3 +6,4 @@ npm isntall
 npm run dev
 php artisan serve
 composer require livewire/livewire
+php artisan make:livewire UsuariosComponent
