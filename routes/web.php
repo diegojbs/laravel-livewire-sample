@@ -25,3 +25,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('usuarios', [HomeController::class, 'usuarios'])->name('usuarios.index');
 
 Route::get('productos', [HomeController::class, 'productos'])->name('productos.index');
+
+Route::get('ver-pdf', [HomeController::class, 'verPdf'])->name('ver.pdf');
+
+Route::get('graficas', [HomeController::class, 'verGraficas'])->name('ver.graficas');
